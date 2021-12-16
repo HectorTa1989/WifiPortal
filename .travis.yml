@@ -1,0 +1,8 @@
+language: c
+before_install:
+ - ./bootstrap
+script:
+ - ./configure
+ - make
+compiler:
+ - gcc
